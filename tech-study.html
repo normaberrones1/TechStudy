@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Study Flashcards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class=" container">
+        <div class ="Flashcards">
+            <div class = "flashcard">
+                <div class="card-content">
+                    <div class="front">
+                        <h2>What is the Java Virtual Machine (JVM) and its purpose? </h2>
+                    </div>
+                    <div class="back">
+                        <h2>The JVM is a virtual machine that executes Java bytecode. 
+                            It allows Java programs to run on any device or operating system, 
+                            providing cross-platform compatibility. </h2>
+                    </div>
+                </div>   
+            </div>    
+
+        <div class = "flashcard">
+            <div class="card-content">
+                <div class="front">
+                    <h2>What is a variable in programming, and how do you declare a variable in Java?  </h2>
+                </div>
+                <div class="back">
+                    <h2>A variable is a container for storing data values. In Java, a variable is declared by specifying 
+                        its type followed by its name and optionally initializing it with a value. 
+                        <p>EXAMPLE: int age = 25; </p>
+                    </h2>
+                </div>
+            </div> 
+        </div>
+
+
+        <div class = "flashcard">
+            <div class="card-content">
+                <div class="front">
+                    <h2>What are the primary data types in Java for representing whole numbers and decimal numbers?</h2>
+                </div>
+                <div class="back">
+                    <h2>For whole numbers: byte, short, int, long. For decimal numbers: float, double.</h2>
+                </div>
+            </div> 
+        </div>
+
+
+        
+        <div class = "flashcard">
+            <div class="card-content">
+                <div class="front">
+                    <h2>What are the primitive data types in Java, and what is the difference between primitive and reference data types?</h2>
+                </div>
+                <div class="back">
+                    <h2>The eight primitive data types in Java are: byte, short, int, long, float, double, char, and boolean. Primitive data types 
+                        store simple values directly (e.g., int, boolean), whereas reference data types store references to objects (e.g., String, ArrayList).</h2>
+                </div>
+            </div> 
+        </div>
+
+
+        
+        <div class = "flashcard">
+            <div class="card-content">
+                <div class="front">
+                    <h2>What is numeric imprecision, and how can you avoid loss of precision when dividing integers? </h2>
+                </div>
+                <div class="back">
+                    <h2>Numeric imprecision occurs with floating-point types (float, double) due to their finite precision, which can lead to small errors in 
+                        calculations. To avoid loss of precision when dividing integers, use floating-point literals or cast one operand to a double before 
+                        performing the division.</h2>
+                </div>
+            </div> 
+        </div>
+
+
+    
+        <div class = "flashcard">
+            <div class="card-content">
+                <div class="front">
+                    <h2>What is widening conversion, and how does it differ from narrowing conversion? </h2>
+                </div>
+                <div class="back">
+                    <h2>Widening conversion is converting a smaller data type to a larger data type (e.g., int to long). 
+                        Narrowing conversion is converting a larger data type to a smaller data type (e.g., long to int), 
+                        and it requires explicit casting.</h2>
+                </div>
+            </div> 
+        </div>
+        
+        
+
+            
+        </div>    
+        <button id="flip-card">Show Answer</button>
+        <button id="next-card">Next</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
